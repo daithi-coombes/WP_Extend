@@ -37,7 +37,8 @@ class MyClass extends WP_Extend(){
  * In wp core example
  * The object gets constructed and used as normal
  */
-$wp_obj = new MyClass();
+$class_name = do_filter('wp_classname_filter');
+$wp_obj = new $class_name();
 $wp_obj->method_not_overwritten();	//methods not overwritten will get called and run as if it were extended
 
 /**
