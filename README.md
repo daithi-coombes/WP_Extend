@@ -4,7 +4,7 @@ WP_Extend
 A class wrapper to provide extending capabilities to awkward wordpress core class that throw errors when extended.
 
 Blog url:
-http://david-coombes.com/extending-wordprss-classes-with-wp_extend%EF%BB%BF%EF%BB%BF/
+http://david-coombes.com/extending-wordprss-classes-with-wp_extend/
 
 Usage
 =====
@@ -32,7 +32,6 @@ class MyClass extends WP_Extend(){
     	return $this->parent();
     }
 }
-```
 
 /**
  * In wp core example
