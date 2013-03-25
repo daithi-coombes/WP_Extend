@@ -3,7 +3,8 @@
  * Wrapper class to extend awkward wordpress core classes
  *
  * https://github.com/david-coombes/WP_Extend
- * http://david-coombes.com/extending-wordprss-classes-with-wp_extend%EF%BB%BF%EF%BB%BF/
+ * http://david-coombes.com/extending-wordprss-classes-with-wp_extend/
+ * @license GPLv2
  * @author daithi coombes 
  * @package WP_Extend
  */
